@@ -9,7 +9,7 @@ register_nav_menu ( 'menu_footer' , 'Footer menu' );
 
 
 add_theme_support( 'post-thumbnails' );
-set_post_thumbnail_size ( '300', '9999', true );
+set_post_thumbnail_size ();
 
  /**
 * Добавляем виджеты

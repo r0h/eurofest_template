@@ -12,7 +12,7 @@
 							<div class="row">
 								<div class="col-md-12">
 									<div class="row">
-										<div class="title_single"><?php the_title( '<h2 class="post_title page_title_center">', '</h2>'); ?>
+										<div class="title_single"><?php the_title( '<h1 class="post_title page_title_center">', '</h1>'); ?>
 										</div>
 									</div>
 								</div>

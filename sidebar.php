@@ -5,7 +5,7 @@
 		
 		<div class="mail_us">
 			<form id="callback" class="pop_form"> 
-				<ul>
+				<ul class="no_padding_992">
 					<h4>Приєднатися до розсилки</h4>
 					<span class="form_name_mail">Ім'я:</span>
 					<input type="text" name="name" placeholder="Ваше ім'я..."/>

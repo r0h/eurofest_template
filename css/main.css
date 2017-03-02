@@ -227,7 +227,7 @@ ul li .children {
 	display: inline-block;
 	font-size: 20px;
 	margin: 5px -4px 0px 0px;
-	padding: 0px;
+	padding: 15px;
 }
 .bot_menu a:hover {
 	color: #C9694F;

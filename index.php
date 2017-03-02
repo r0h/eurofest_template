@@ -10,7 +10,7 @@
 							<div class="row">
 								<div class="col-md-12">
 									<div class="row">
-										<a href="<?php the_permalink(); ?>"><?php the_title( '<h2 class="post_title">', '</h2>'); ?></a>
+										<a href="<?php the_permalink(); ?>"><?php the_title( '<h1 class="post_title">', '</h1>'); ?></a>
 										<ul class="post_info">
 											<li><?php the_category(); ?></li>
 											<li><?php the_time( 'j M Y' ); ?></li>
@@ -18,7 +18,7 @@
 									</div>
 								</div>
 								<div class="col-md-5 col-sm-5">
-									<div class="miniatura"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a></div>
+									<div class="miniatura"><figure><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a></figure></div>
 								</div>
 								<div class="col-md-7 col-sm-7">
 									<?php the_content( 'Читати' ); ?>
