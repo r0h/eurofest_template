@@ -1,0 +1,269 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "Glametrix", sans-serif;
+	background-color: rgba(143,191,221,0.4);
+	font-size: 19px;
+}
+header {
+	opacity: 0.9;
+	background: url(../img/header5.jpg)  no-repeat;
+	height: 400px;
+}
+.calendar {
+	margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Linux Libertine Slanted';
+	padding-left: 3%;
+}
+h4 .fa-angle-double-right,
+h4 .fa-angle-double-left {
+	font-size: 16px;
+	color: #337ab7;
+}
+a:hover {
+	color: #589fdc;
+	text-shadow: 0px 1px 0px black;
+}
+.top_header {
+	background-size: cover;
+	padding: 15px 0 100px 0;
+}
+.top_header a {
+	color: #000;
+	transition: 1s;
+}
+.opasity {
+	background-color: rgba(0, 120, 201, 0.1);
+}
+.logo img{
+	height: 90px;
+	float: left;
+	margin: 20px 0px 10px 0px;
+/*	float: left;
+	text-decoration: none;
+	margin: 0px 26px 0px 26px;
+	font-family: 'Champignon';
+	font-size: 100px;*/
+}
+.button_menu {
+	background-color: transparent;
+	border: medium none;
+	font-size: 26px;
+	float: right;
+	padding: 8px 15px 0;
+}
+.top_menu {
+	float: right;
+	margin-top: 50px;
+	font-size: 13px;
+}
+.top_menu ul li{
+	text-align: right;
+	display: inline-block;
+	margin: 5px -4px 0px 0px;
+	padding: 15px;
+}
+.top_menu ul li:hover {
+	transition: 1s;	
+	border-radius: 50px;
+	background-color: rgba(255,244,239, 0.5);
+}
+.menu li {	
+	text-transform: uppercase;
+	font-family: 'Bad Script';
+	transition: 0.5s;
+	font-weight: bold;
+}
+.menu li:hover a{
+	color: #96636F;
+}
+ul li .children {
+	position: relative;
+}
+
+.header_contact {
+	
+	font-size: 24px;
+}
+.contact {
+	float: right;
+	padding: 63px 10px 0 0;
+	font-size: 28px;
+}
+.contact i {
+	display: block;
+	margin: 23px 13px;
+	color: #FDD0A6;
+}
+.title_single {
+	color: #337AB7;
+}
+.blog_item img {	
+	margin-bottom: 10px;
+}
+.customNextBtn,
+.customPrevBtn,
+.customNextBtn2,
+.customPrevBtn2,
+.customNextBtn3,
+.customPrevBtn3	{
+	opacity: 0.7;
+	background-color: rgba(0,0,0, 0.8);
+	border-radius: 10em;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 5px 25px 0 25px;
+	position: absolute;
+	top: 38%;
+	z-index: 10;
+}
+.customNextBtn,
+.customNextBtn2,
+.customNextBtn3{
+	right: 20px;
+}
+.customPrevBtn,
+.customPrevBtn2,
+.customPrevBtn3 {
+	left: 20px;
+}
+
+.top_news_text {
+	padding-left: 25px;
+	margin-top: 60px;
+}
+.top_news_text h5 {
+	padding-left: 24px;
+	font-size: 17px;
+	font-weight: inherit;
+	margin: 33px 0px 41px 7px;
+}
+.top_news_text ul {
+	margin: -34px 0 auto;
+	list-style-type: none;
+}
+.mail_us {
+	margin-top: 40px;
+}
+.form_name_mail {
+	padding-left: 11px;
+}
+.button {
+	background-color: #CC6C52;
+	border: medium none;
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.button:hover {
+	background-color: #DF7F65;
+}
+.button:active {
+	background-color: #BF5F45;
+}
+.pop_form input[type="text"] {
+	display: block;
+	line-height: 24px;
+	margin: 0 auto 0px;
+	width: 90%;
+	border: #999 3px solid;
+	padding-left: 10px;
+}
+.pop_form .button {
+	margin: 0px auto 0;
+	font-family: "RobotoLight";
+	font-size: 15px;
+	font-weight: bold;
+}
+.pop_form h4 {
+	margin: 10px auto 10px;
+	text-align: center;
+	font-weight: normal;
+	font-family: "RobotoLight";
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.footer {
+	background-color: rgba(143,191,221,0.7);
+}
+.bottom_menu {
+	text-align: center;
+}
+.footer_logo img{
+	height: 70px;
+	float: left;
+	margin: 13px 0;
+}
+.bot_menu li{
+	display: inline-block;
+	font-size: 20px;
+	margin: 5px -4px 0px 0px;
+	padding: 0px;
+}
+.bot_menu a:hover {
+	color: #C9694F;
+}
+.bottom_contacts {
+	padding-top: 28px;
+	float: right;
+}
+.phone i {
+	margin-right: 3px;
+}
+/*Изменить скорость анимации owl-carousel*/
+.owl-carousel .animated  {
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+.bubble {
+	width: 200px;
+}
+.calendar {
+	text-align: center;
+}
+.fest_item {
+	margin-bottom: 15px;
+}
+.fest_item img {
+	margin-top: 15px;
+}
+.links {
+	margin-top: 25px;
+}
+.name_fest {
+	text-align: center;
+}
+.fest_item_img {
+	margin-top: 15px;
+}

@@ -1,0 +1,81 @@
+									<div class="slider">
+										<div class="customNextBtn"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+										<div class="customPrevBtn"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+										<div class="owl-carousel owl-theme carousel-1">
+											<div class="slide_item">
+												<?php if (class_exists('MultiPostThumbnails')) : 
+												MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'extra-image-1', get_the_ID(), array(9999,9999)); endif; ?>
+											</div>
+											<div class="slide_item">
+												<?php if (class_exists('MultiPostThumbnails')) : 
+												MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'extra-image-2', get_the_ID(), array(9999,9999)); endif; ?>
+											</div>
+											<div class="slide_item">
+												<?php if (class_exists('MultiPostThumbnails')) : 
+												MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'extra-image-3', get_the_ID(), array(9999,9999)); endif; ?>
+											</div>
+											<div class="slide_item">
+												<?php if (class_exists('MultiPostThumbnails')) : 
+												MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'extra-image-4', get_the_ID(), array(9999,9999)); endif; ?>
+											</div>
+											<div class="slide_item">
+												<?php if (class_exists('MultiPostThumbnails')) : 
+												MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'extra-image-5', get_the_ID(), array(9999,9999)); endif; ?>
+											</div>
+											<div class="slide_item">
+												<?php if (class_exists('MultiPostThumbnails')) : 
+												MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'extra-image-6', get_the_ID(), array(9999,9999)); endif; ?>
+											</div>
+										</div>
+									</div>
+
+
+	//Каруселька
+	//Документация: http://owlgraphic.com/owlcarousel/
+	//var owl = $(".owl-carousel");
+	// var owl = jQuery(".carousel-1")
+	// var owl2 = jQuery(".carousel-2")
+	// var owl3 = jQuery(".carousel-3")	
+	// var nextButton1 = jQuery('.customNextBtn')
+	// var nextButton2 = jQuery('.customNextBtn2')
+	// var nextButton3 = jQuery('.customNextBtn3')
+	// var prevButton1 = jQuery('.customPrevBtn')
+	// var prevButton2 = jQuery('.customPrevBtn2')
+	// var prevButton3 = jQuery('.customPrevBtn3')
+
+	// main_carousel(owl);
+	// next(owl, nextButton1);
+	// prev(owl,prevButton1);
+
+	// main_carousel(owl2);
+	// next(owl2, nextButton2);
+	// prev(owl2,prevButton2);
+
+	// main_carousel(owl3);
+	// next(owl3, nextButton3);
+	// prev(owl3,prevButton3);
+
+	// function main_carousel(number){
+	// 	return number.owlCarousel({
+	// 		items:1,
+	// 		loop:true,
+	// 		responsiveClass:true,
+	// 		autoHeight: true,
+	// 		mergeFit: true,
+	// 		animateOut: 'fadeOut',
+	// 	});
+	// };
+	// // Go to the next item
+	// function next(number_owl, nextButton){
+	// 	return  nextButton.click(function() {
+	// 		number_owl.trigger('next.owl.carousel');
+	// 	});
+	// };
+	// // Go to the previous item
+	// // With optional speed parameter
+	// // Parameters has to be in square bracket '[]'
+	// function prev(number_owl, prevButton){
+	// 	return prevButton.click(function() {
+	// 		number_owl.trigger('prev.owl.carousel', [700]);
+	// 	});
+	// };
