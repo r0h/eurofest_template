@@ -15,3 +15,5 @@ https://github.com/r0h/eurofest_template/blob/master/max992px.png
 https://github.com/r0h/eurofest_template/blob/master/max480px.png
 
 https://github.com/r0h/eurofest_template/blob/master/max320px.png
+
+Original page eurofest.pl
